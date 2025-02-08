@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-['Inter'] bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-gradient-to-r from-purple-600 to-blue-500 shadow-lg z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-white text-2xl font-bold tracking-wide">Lumina</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-white hover:text-gray-200 transition-colors">Home</a>
+                    <a href="#" class="text-white hover:text-gray-200 transition-colors">About</a>
+                    <a href="#" class="text-white hover:text-gray-200 transition-colors">Services</a>
+                    <a href="#" class="text-white hover:text-gray-200 transition-colors">Contact</a>
+                    <button class="bg-white text-purple-600 px-6 py-2 rounded-full hover:bg-opacity-90 transition-all shadow-lg">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="pt-32 pb-20 bg-gradient-to-b from-purple-600 to-blue-500">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-bold text-white mb-8 leading-tight drop-shadow-lg">
+                    Create Stunning Digital Experiences
+                </h1>
+                <p class="text-xl text-white opacity-90 mb-12 max-w-2xl mx-auto">
+                    Transform your online presence with our cutting-edge web solutions and innovative design approach.
+                </p>
+                <div class="space-x-4">
+                    <button class="bg-white text-purple-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-opacity-90 transition-all transform hover:scale-105 shadow-xl animate-pulse">
+                        Start Free Trial
+                    </button>
+                    <button class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-purple-600 transition-all">
+                        Watch Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature Card 1 -->
+                <div class="p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4">Lightning Fast</h3>
+                    <p class="text-gray-600">Optimized performance for instant loading and seamless user experience.</p>
+                </div>
+
+                <!-- Feature Card 2 -->
+                <div class="p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4">Secure Platform</h3>
+                    <p class="text-gray-600">Enterprise-grade security to protect your data and privacy.</p>
+                </div>
+
+                <!-- Feature Card 3 -->
+                <div class="p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4">Innovative Solutions</h3>
+                    <p class="text-gray-600">Stay ahead with cutting-edge technology and modern design patterns.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">Lumina</h4>
+                    <p class="text-gray-400">Crafting digital excellence since 2020</p>
+                </div>
+                <div>
+                    <h5 class="font-semibold mb-4">Product</h5>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Features</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Pricing</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-semibold mb-4">Company</h5>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="font-semibold mb-4">Legal</h5>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Terms</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 Lumina. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
